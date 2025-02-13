@@ -1,0 +1,36 @@
+.cartBlock {
+background-color: silver;
+width:300px;
+position: fixed;
+top:0px;
+left:70%;
+height: 100%;
+padding: 20px;
+transition: 2s;
+}
+*{
+    margin: 0;
+}
+.container{
+    margin: 0;
+}
+.header {
+    background-color: pink;
+    display: flex;
+    justify-content: space-between;
+}
+.productBlock {
+background-color: silver;
+display: flex;
+justify-content: center;
+}
+.row{
+    display: flex;
+    justify-content: center;
+}
+.box{
+    background-color: white;
+    margin: 10px;
+    border-radius: 20px;
+    padding: 10px;
+}
